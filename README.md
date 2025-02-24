@@ -19,7 +19,7 @@ Please refer to dataset/ for the released data of ALFWorld and VirtualHome.
 
 ## 📖 Citation
 
-If you find this repo helpful, please cite out paper:
+If you find this repo helpful, please cite our paper:
 
 ```
 
