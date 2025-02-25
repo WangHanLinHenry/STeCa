@@ -19,10 +19,15 @@ Please refer to dataset/ for the released data of ALFWorld and VirtualHome.
 
 ## 📖 Citation
 
-If you find this repo helpful, please cite out paper:
+If you find this repo helpful, please cite our paper:
 
 ```
-
+@article{wang2025steca,
+  title={STeCa: Step-level Trajectory Calibration for LLM Agent Learning},
+  author={Wang, Hanlin and Wang, Jian and Leong, Chak Tou and Li, Wenjie},
+  journal={arXiv preprint arXiv:2502.14276},
+  year={2025}
+}
 ```
 
 ## 🙏 Acknowledgments
