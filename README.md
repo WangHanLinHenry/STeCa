@@ -1,4 +1,4 @@
-# STeCa
+# (ACL2025 findings) Official code for the paper "STeCa: Step-level Trajectory Calibration for LLM Agent Learning"
 
 This repository contains the code for the paper "STeCa: Step-level Trajectory Calibration for LLM Agent Learning"
 
