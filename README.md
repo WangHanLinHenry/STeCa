@@ -1,4 +1,4 @@
-# (ACL2025 findings) STeCa: Step-level Trajectory Calibration for LLM Agent Learning
+# STeCa
 
 This repository contains the code for the paper "STeCa: Step-level Trajectory Calibration for LLM Agent Learning"
 
@@ -8,6 +8,22 @@ This repository contains the code for the paper "STeCa: Step-level Trajectory Ca
 
 In this work, We propose **S**tep-Level **T**raj**e**ctory **Ca**libration (**STeCa**), a novel framework for improving LLM agents. 
 Specifically, **STeCa** identifies suboptimal actions through a step-level reward comparison during explorations. It constructs calibrated trajectories using LLM-driven reflection, enabling agents to learn from improved decision-making processes. These calibrated trajectories, together with successful trajectory data, are utilized for reinforced training.
+
+## 🎉News
+- [2025.04.15] 🔥 Our paper is accepted in ACL25 Findings.
+- [2025.02.19] 🚀 STeCa Repo launched!
+
+## 📝Contents
+
+- [Setup](#setup)
+- [Usage](#method)
+  - [Base Agent SFT Training](#base-agent-sft-training)
+  - [Explored Trajectories Collection](#environment-exploration)
+  - [Data Construction](#data-construction)
+  - [Reinforced Training](#rl-training)
+  - [Evaluation](#evaluation)
+- [Expert Trajectories Collection](#etc)
+
 
 ## ⛏️ Usage 
 
