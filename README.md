@@ -67,10 +67,27 @@ Firstly, please run following scripts to conduct acquisite step rewards:
 ```
 # For ALFWorld environment
 
+# Collect step rewards for expert step
+bash sampling/alfworld/expert_generate_response.sh
+bash sampling/alfworld/expert_mc_explore.sh
 
-# For VirtualHome environment
+# Collect step rewards for explored step
+bash sampling/alfworld/explore_generate_response.sh
+bash sampling/alfworld/explore_mc_explore.sh
+```
 
 ```
+# For VirtualHome environment
+
+# Collect step rewards for expert step
+bash sampling/virtualhome/expert_generate_response.sh
+bash sampling/virtualhome/expert_mc_explore.sh
+
+# Collect step rewards for explored step
+bash sampling/virtualhome/explore_generate_response.sh
+bash sampling/virtualhome/explore_mc_explore.sh
+```
+
 Then, run the following script to construct the calibration dataset, explored successful trajectory datase and the expert sub-trajectory dataset.
 ```
 # For ALFWorld environment
